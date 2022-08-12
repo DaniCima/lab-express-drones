@@ -5,18 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>{{title}}</title>
+    <link rel="stylesheet" href="/stylesheets/reset.css" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
 
   <body>
-    <nav>
-      <ul>
-        <li>
-          <a href="/drones"> Drones</a>
+    <header class="header">
+      <nav class="nav-bar">
+        <ul class="ul-bar">
+          <li>
+            <a href="/drones"> Drones</a>
 
-        </li>
-      </ul>
-    </nav>
+          </li>
+          <li> <a href="/drones/create"> Add Drone</a></li>
+        </ul>
+      </nav>
+    </header>
     {{{body}}}
 
     <script src="/js/script.js"></script>

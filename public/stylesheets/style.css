@@ -1,8 +1,30 @@
 body {
-  padding: 50px;
-  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00b7ff;
+}
+
+.header {
+  display: flex;
+  background-color: aquamarine;
+  width: 100vw;
+  height: 60px;
+  border: solid 2px blueviolet;
+}
+
+nav {
+  width: 100vw;
+  border: 1px solid red;
+}
+
+.ul-bar {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-page {
+  padding: 50px;
 }
